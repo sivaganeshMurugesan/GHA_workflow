@@ -1,0 +1,9 @@
+name: First workflow
+on: [push]
+jobs:
+  explore-github
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo"Hi, my workflow run" 
+
+    
