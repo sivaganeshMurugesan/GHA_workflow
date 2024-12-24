@@ -1,7 +1,8 @@
 name: troubleshoot workfow
 run-name: workflow
 on: 
-  - push
+  push:
+    types: [merged]
   label:
       created
   
