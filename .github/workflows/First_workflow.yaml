@@ -1,9 +1,10 @@
-name: First workflow
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
-  explore-github
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo"Hi, my workflow run" 
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 
     
