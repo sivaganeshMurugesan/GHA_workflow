@@ -1,4 +1,5 @@
-#name: troubleshoot workfow
+name: troubleshoot workfow
+run-name: workflow
 on: [push]
 jobs:
   workflowL:
