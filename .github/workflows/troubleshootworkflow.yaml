@@ -3,6 +3,7 @@ run-name: workflow
 on: 
   #push:
   label:
+    types:
       created
   
 jobs:
