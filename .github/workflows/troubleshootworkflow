@@ -1,0 +1,7 @@
+name: troubleshoot workfow
+on: [push]
+jobs:
+  workflowL:
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "its working"
