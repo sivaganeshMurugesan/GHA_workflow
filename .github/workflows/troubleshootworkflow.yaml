@@ -1,7 +1,7 @@
 name: troubleshoot workfow
 run-name: workflow
 on: 
-  push:
+  #push:
   label:
       created
   
